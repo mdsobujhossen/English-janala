@@ -109,7 +109,27 @@
         </section>
 
         <section id="word-container" class="bg-base-200 p-5 grid grid-cols-3 gap-5 w-11/12 mx-auto my-10 rounded-md">
+
+            <div class="text-center col-span-3 py-20 font-bangla space-y-2">
+
+                <h5 class="text-[#79716B] text-[13.38px]">আপনি এখনো কোন Lesson Select করেন নি</h5>
+                <p class="text-[#292524] font-medium text-[34px] ">একটি Lesson Select করুন।</p>
+            </div>
         </section>
+        <!-- Open the modal using ID.showModal() method -->
+        <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+                <h3 class="text-lg font-bold">Hello!</h3>
+                <p class="py-4">Press ESC key or click the button below to close</p>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
     </main>
 
 
